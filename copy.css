@@ -1,0 +1,716 @@
+*{
+    margin :0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+
+}
+.dropnav{
+    display:flex;
+}
+.menus{
+display:flex;
+justify-content: center;
+align-items:center;
+align-content: center;
+height:50px;
+ padding:20px;
+ border: solid rgb(255, 255, 255);
+}
+.menus:hover{
+background-color: rgb(4, 170, 109);
+color: white;
+}
+#exercises{
+    display: flex;
+    width: fit-content;
+}
+#tutorials{
+    display: flex;
+    width: fit-content;
+}
+#tutorials{
+    display: flex;
+    width: fit-content;
+}
+#tutorials{
+    display: flex;
+    width: fit-content;
+}
+.drop-content{
+display:none;
+padding:20px;
+width:150px;
+background-color: rgb(227, 230, 234);
+text-align: center;
+}
+.menus:hover .drop-content{
+display:absolute;
+}
+.navigation{
+font-family: "Inter", sans-serif;
+overflow: hidden;
+font-weight: 400;
+display:flex;
+justify-content: space-between;
+align-items: center;
+align-content: center;
+}
+.searchnav #search{
+outline:none;
+border:none;
+width:150px;
+/* border-radius: 20px; */
+border-color: rgb(255, 255, 255);
+}
+.searchnav #searchicon{
+border:none;
+width:13px;
+background-color: white;
+}
+.searchnav{
+padding:4px;
+display:flex;
+width:fit-content;
+border-radius: 20px;
+border-style: solid;
+border-width: 1.3px;
+border-color: rgb(215, 211, 211);
+height: 30px;
+margin: 5px;
+}
+.plus{
+display:flex;
+height: 40px;
+width:fit-content;
+border-radius: 15px;
+justify-content: center;
+text-align: center;
+align-content: center;
+padding: 10px;
+}
+
+.plus:hover{
+border-radius: 20px;    
+background-color:  rgb(215, 211, 211);
+
+}
+.spaces{
+display:flex;
+height: 40px;
+width:fit-content;
+border-radius: 15px;
+justify-content: center;
+text-align: center;
+align-content: center;
+padding: 10px;
+}
+.spaces:hover{
+border-radius: 20px;    
+background-color:  rgb(215, 211, 211);
+
+}
+.cart{
+display:flex;
+white-space: nowrap;
+height: 40px;
+width:fit-content;
+border-radius: 15px;
+justify-content: center;
+text-align: center;
+align-content: center;
+padding: 10px;
+}
+.cart:hover{
+
+border-radius: 20px;    
+background-color:  rgb(215, 211, 211);
+
+}
+.login{
+display:flex;
+height: 40px;
+width:fit-content;
+border-radius: 15px;
+justify-content: center;
+text-align: center;
+align-content: center;
+padding: 10px;
+}
+.login:hover{
+
+border-radius: 20px;    
+background-color:  rgb(215, 211, 211);
+
+}
+.rightnav{
+display: flex;
+flex-shrink: 1;
+}
+.leftnav{
+display: flex;
+align-items: center;
+}
+.lowernav{
+display: flex;
+background-color: rgb(40, 42, 53);
+color: white;
+}
+.lowertile{
+overflow: hidden;
+font-family: "Inter", sans-serif;
+font-size: medium;
+height: 30px;
+padding-left: 5px;
+padding-right: 5px;
+width:fit-content;
+white-space: nowrap;    
+align-content: center;
+text-align: center;
+line-height: 15px;
+}
+.lowertile:hover{
+background-color: black;
+}
+.search #search{
+    outline:none;
+    border:none;
+    width:250px;
+    border-color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 20px;
+    }
+    .search #searchicon{
+    border:none;
+    width:  95px;
+    height: 30px;
+    background-color: rgb(5, 152, 98);
+    border: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    }
+    .search{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:350px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(215, 211, 211);
+    height: 30px;
+    margin: 2px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    }
+.home1{
+    background-color:rgb(40, 42, 53) ;
+    text-align: center;
+    height: 250px;
+    font-family: "Inter", sans-serif;
+font-weight: 400;
+}
+#l{
+    color: white;
+    
+}
+#l:hover{
+    color:rgb(255, 244, 163);
+}
+.home2{
+    display:flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(217, 238, 225);
+    height: 600px;
+    align-items: center;
+}
+.home2_subbox{
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+    height: 450;
+}
+.home2 #button1{
+    background-color:rgb(5, 152, 98) ;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight:600;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+}
+.home2 #button2{
+    background-color:rgb(255, 244, 163) ;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight:600;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+}
+.home2 #button3{
+    font-weight:bold;
+    font-family: "Source Sans 3", sans-serif;
+    background-color:black ;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+}
+.home2 #button4{
+    background-color:rgb(255, 179, 187) ;
+    font-weight:600;
+    font-family: "Source Sans 3", sans-serif;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+}
+ #try{
+    background-color: rgb(5, 152, 98);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.leftside #text{
+    white-space: nowrap;
+}
+.rightside{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 233, 235);
+    width: 440px;
+    border-top-width: 20px;
+}
+.right_eg{
+    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.home3{
+    display:flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(255, 244, 163);
+    height: 550px;
+    align-items: center;
+}
+.home3_subbox{
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+    height: 450;
+}
+.home3 #button1{
+    background-color:rgb(5, 152, 98) ;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight:600;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+}
+.home3 #button3{
+    font-weight:bold;
+    font-family: "Source Sans 3", sans-serif;
+    background-color:black ;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+}
+.home3 #button4{
+    background-color:rgb(255, 179, 187) ;
+    font-weight:600;
+    font-family: "Source Sans 3", sans-serif;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+}
+.mid-section{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: rgb(40, 42, 53) ;
+}
+#php{
+    background-color: rgb(255, 192, 199);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 264px;
+    justify-content: space-between;
+    width: 40%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+    border-radius: 8px;
+    margin: 30px;
+}
+#php #php-button{
+    background-color:rgb(40, 42, 53) ;
+    color: white;
+    font-weight:600;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+}
+#jQuery{
+    background-color: rgb(255, 244, 163);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 264px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    margin: 30px;
+}
+#jQuery #jQuery-button{
+    background-color:rgb(40, 42, 53) ;
+    color: white;
+    font-weight:600;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+}
+#java{
+    background-color: rgb(243, 236, 234);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 264px;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: center;
+    border-radius: 8px;
+}
+#java #java-button{
+    background-color:rgb(40, 42, 53) ;
+    color: white;
+    font-weight:600;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+}
+#cplus{
+    background-color: rgb(217, 238, 225);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 264px;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: center;
+    border-radius: 8px;
+}
+#Cplus #Cplus-button{
+    background-color:rgb(40, 42, 53) ;
+    color: white;
+    font-weight:600;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+}
+.big-tiles{
+    white-space: nowrap;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.big-tiles .line1{
+    width: 100%;
+    margin-top: 60px;
+    
+    display: flex;
+    justify-content: center;
+}
+.big-tiles .line2{
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    flex-grow: 2;
+}
+.line3{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    flex-shrink: 1;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+.line3 #c{
+    background-color: rgb(255, 192, 199);
+    flex-shrink: 1;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items: center;
+    width: 41.57942708%;
+    height: 120px;
+    border-radius: 8px;
+}
+.line3 #csharp{
+    background-color: rgb(255, 244, 163);
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+    align-items: center;
+    width: 41.57942708%;
+    margin-left: 30px;
+    margin-right: 30px; 
+    height: 120px;
+    border-radius: 8px;
+}
+.small-tiles{
+display: flex;
+width: 100%;
+height: 100%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.small-tiles #line1{
+    margin-top: 30px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.small-tiles #line1 #R{
+    background-color: rgb(243, 236, 234);
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    width: 18%;
+    height: 120px;
+    border-radius: 8px;
+}
+.small-tiles #line1 #Kotlin{
+    background-color: rgb(217, 238, 225);
+    flex-shrink: 1;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    width: 18%;
+    height: 120px;
+    border-radius: 8px;
+}
+.small-tiles #line1 #nodejs{
+    background-color: rgb(150, 212, 212);
+    flex-shrink: 1;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    width: 18%;
+    height: 120px;
+    border-radius: 8px;
+}
+.small-tiles #line1 #React{
+    background-color: rgb(255, 192, 199);
+    flex-shrink: 1;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    width: 18%;
+    height: 120px;
+    border-radius: 8px;
+}
+.small-tiles #line2{
+    flex-shrink: 1;
+    flex-grow: 1;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.small-tiles #line2 #JSON{
+    background-color: rgb(255, 244, 163);
+    flex-shrink: 1;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    width: 18%;
+    height: 120px;
+    border-radius: 8px;
+}
+.small-tiles #line2 #Vue{
+    background-color: rgb(243, 236, 234);
+    flex-shrink: 1;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    width: 18%;
+    height: 120px;
+    border-radius: 8px;
+}
+.small-tiles #line2 #MySQL{
+    background-color: rgb(217, 238, 225);
+    flex-shrink: 1;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    width: 18%;
+    height: 120px;
+    border-radius: 8px;
+}
+.small-tiles #line2 #XML{
+    background-color: rgb(150, 212, 212);
+    flex-shrink: 1;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    width: 18%;
+    height: 120px;
+    border-radius: 8px;
+}
+.line3 #ml{
+    background-color: rgb(255, 192, 199);
+    white-space: nowrap;
+    overflow: hidden;
+    flex-shrink: 1;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items: center;
+    width: 41.57942708%;
+    height: 120px;
+    border-radius: 8px;
+}
+.line3 #ai{
+    background-color: rgb(243, 236, 234);
+    white-space: nowrap;
+    overflow: hidden;
+    flex-shrink: 1;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items: center;
+    width: 41.57942708%;
+    height: 120px;
+    border-radius: 8px;
+}
+.lower-section{
+    font-family: "Noto Sans JP", sans-serif;
+    color: white;
+    background-color: rgb(40, 42, 53) ;
+    display: flex;
+    flex-direction: column;}
+.video1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 69.9999%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+#video1{
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+#frontend-editor{
+    background-color: rgb(5, 152, 98);
+    margin: 1%;
+    margin-left: 15%;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5%;
+    height: 13%;
+    width: fit-content;
+    white-space: nowrap;
+    border: none;
+}
+#backend-editor{
+    background-color: rgb(255, 244, 163);
+    margin: 1%;
+    margin-left: 15%;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5%;
+    height: 13%;
+    width: fit-content;
+    white-space: nowrap;
+    border: none;
+}
+.video2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 69.9999%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+#learn{
+    background-color: rgb(5, 152, 98);
+    margin: 1%;
+
+    color: white;
+    border-radius: 30px;
+    padding: 1%;
+    height: 13%;
+    width: 20%;
+    white-space: nowrap;
+    border: none;
+}
